@@ -35,7 +35,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.4, ease: "easeOut" }}
               className="text-gray-600 mb-8 max-w-lg text-lg"
             >
-              Software Engineer proficient in HTML, CSS, JavaScript, React, and Spring Boot, with a strong passion for creating dynamic and engaging user experiences.
+              Software Engineer proficient in HTML, CSS, JavaScript, TypeScript, React, React-Native, and Spring Boot, with a strong passion for creating dynamic and engaging user experiences.
             </motion.p>
             <motion.div 
               initial={{ opacity: 0, y: -20 }}
@@ -70,7 +70,7 @@ const Hero = () => {
               className="mt-10 flex space-x-5"
             >
               {[
-                { icon: "/lovable-uploads/442bdbda-2fb9-485d-8240-c9266afa143c.png", label: "Connect with me", href: "#" },
+                { icon: "/lovable-uploads/442bdbda-2fb9-485d-8240-c9266afa143c.png", label: "Connect with me", href: "https://www.linkedin.com/in/iman-olabode-bello-0870b422a/" },
               ].map((link, i) => (
                 <motion.a 
                   key={i}

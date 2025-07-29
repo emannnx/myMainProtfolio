@@ -2,61 +2,66 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { ExternalLink, Github, Eye } from "lucide-react";
 import { useState } from "react";
+import healthhub from '../assets/Healthhub.png'
+import fgclothings from '../assets/fgclothings.png'
+import fransispets from '../assets/fransispet.png'
+import emanninsite from '../assets/emanninsite.png'
+import springImage from '../assets/SpringBoot.jpg'
 
 const projects = [
   {
     id: 1,
-    title: "Portfolio Website",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
-    description: "A modern and interactive portfolio website to showcase skills and projects.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    link: "#",
-    github: "https://github.com/emannnx"
+    title: "An Healthcare system website",
+    image: healthhub,
+    description: "A modern and interactive website to manage healthcare services, appointments, and patient information.",
+    tags: ["React-js", "Spring Boot", "CSS"],
+    link: "https://healthhub-healthcare.netlify.app/",
+    github: "https://github.com/emannnx/HealthCareSystems"
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
-    description: "A full-featured e-commerce platform with user authentication and product management.",
+    title: "E-Commerce lookbook platform (FGClothings)",
+    image: fgclothings,
+    description: "A full-featured e-commerce lookbook platform for checking out a type of native wear you are interested in.",
     tags: ["React", "JavaScript", "CSS"],
-    link: "#",
-    github: "https://github.com/emannnx"
+    link: "https://fg-clothings.netlify.app/",
+    github: "https://github.com/emannnx/FGClothing"
   },
   {
     id: 3,
-    title: "Content Management System",
-    image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=800&q=80",
-    description: "A comprehensive CMS for managing digital content with user roles and permissions.",
-    tags: ["JavaScript", "MongoDB", "Node.js"],
-    link: "#",
-    github: "https://github.com/emannnx"
+    title: "fransispets Admin Dashboard",
+    image: fransispets,
+    description: "A comprehensive admin dashboard with data visualization and management features.",
+    tags: ["TypeScript", "CSS", "MongoDB"],
+    link: "https://francispet.netlify.app/",
+    github: "https://github.com/emannnx/FrancisPetLocal"
   },
   {
     id: 4,
-    title: "Admin Dashboard",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
-    description: "A comprehensive admin dashboard with data visualization and management features.",
-    tags: ["JavaScript", "CSS", "MongoDB"],
-    link: "#",
+    title: "Emannx-inisite AI",
+    image: emanninsite,
+    description: "An artificial intelligence-powered website that takes in an image or snaps provides personalized recommendations and insights.",
+    tags: ["React", "JavaScript", "CSS"],
+    link: "https://emannx-insight.netlify.app/",
     github: "https://github.com/emannnx"
   },
-  {
+    {
     id: 5,
-    title: "Social Media App(Facebook, Amazon, Youtube)",
-    image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80",
-    description: "A social networking platform with real-time messaging and content sharing.",
-    tags: ["React", "Firebase", "CSS"],
-    link: "#",
-    github: "https://github.com/emannnx"
+    title: "Nutrition Guide",
+    image: springImage,
+    description: "Nutrition Guide is a web application that provides users with personalized nutrition plans and dietary advice.",
+    tags: [ "Spring Boot"],
+    link: "https://nutritional-guide.onrender.com",
+    github: "https://github.com/emannnx/NutritionGuide"
   },
-  {
+    {
     id: 6,
-    title: "Weather Application",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80",
-    description: "A weather forecasting app with location-based data and interactive visuals.",
-    tags: ["JavaScript", "API", "CSS"],
-    link: "#",
-    github: "https://github.com/emannnx"
+    title: "Mood Tracker",
+    image: springImage,
+    description: "Mood Tracker springboot application.",
+    tags: [ "Spring Boot"],
+    link: "https://mood-tracker-1zvf.onrender.com",
+    github: "https://github.com/emannnx/Mood-Tracker"
   }
 ];
 

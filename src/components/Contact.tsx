@@ -157,7 +157,6 @@ const Contact = () => {
           <div className="lg:col-span-2">
             <div className="bg-white p-8 rounded-2xl shadow-xl">
               <div className="flex items-center mb-6">
-                <Sparkles size={22} className="text-portfolio-primary mr-2" />
                 <h3 className="text-2xl font-semibold">Send Me a Message</h3>
               </div>
               
@@ -198,7 +197,7 @@ const Contact = () => {
                       id="phone"
                       type="tel"
                       name="phone"
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="+234-70-6171-6813"
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full rounded-xl border-gray-200 focus:border-portfolio-primary focus:ring-portfolio-primary/20 transition-all duration-500"
