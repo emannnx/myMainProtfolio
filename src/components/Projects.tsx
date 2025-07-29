@@ -32,7 +32,7 @@ const projects = [
     title: "fransispets Admin Dashboard",
     image: fransispets,
     description: "A comprehensive admin dashboard with data visualization and management features.",
-    tags: ["TypeScript", "CSS", "MongoDB"],
+    tags: ["TypeScript", "CSS"],
     link: "https://francispet.netlify.app/",
     github: "https://github.com/emannnx/FrancisPetLocal"
   },
