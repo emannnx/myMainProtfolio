@@ -1,6 +1,8 @@
 
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import heroimage from '../assets/heroimage.jpg'
+
 
 const Hero = () => {
   return (
@@ -138,7 +140,7 @@ const Hero = () => {
                   initial={{ scale: 0.9, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 0.5 }}
-                  src="/lovable-uploads/442bdbda-2fb9-485d-8240-c9266afa143c.png" 
+                  src={heroimage}
                   alt="Iman Olabode Bello" 
                   className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-xl"
                 />
