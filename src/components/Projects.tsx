@@ -81,7 +81,7 @@ const projects = [
     image: healthhub,
     description:
       "A modern and interactive platform for managing healthcare services, appointments, and patient information.",
-    tags: ["React", "Firebase", "CSS"],
+    tags: ["React", "Spring boot", "Mongo-db", "CSS"],
     link: "https://health-care-systems-nine.vercel.app/",
     github: "https://github.com/emannnx/HealthCareSystems",
   },
