@@ -81,7 +81,7 @@ const projects = [
     image: healthhub,
     description:
       "A modern and interactive platform for managing healthcare services, appointments, and patient information.",
-    tags: ["React", "Spring boot", "Mongo-db", "CSS"],
+    tags: ["React", "Spring boot", "MongoDB", "CSS"],
     link: "https://health-care-systems-nine.vercel.app/",
     github: "https://github.com/emannnx/HealthCareSystems",
   },
@@ -91,7 +91,7 @@ const projects = [
     image: springImage,
     description:
       "A web application that provides personalized nutrition plans and dietary recommendations.",
-    tags: ["Spring Boot"],
+    tags: ["Spring Boot", "MongoDB"],
     link: "https://nutritional-guide.onrender.com",
     github: "https://github.com/emannnx/NutritionGuide",
   },
@@ -101,7 +101,7 @@ const projects = [
     image: springImage,
     description:
       "A Spring Boot application for tracking daily mood and overall emotional wellness.",
-    tags: ["Spring Boot"],
+    tags: ["Spring Boot", "MongoDB"],
     link: "https://mood-tracker-1zvf.onrender.com",
     github: "https://github.com/emannnx/Mood-Tracker",
   },
