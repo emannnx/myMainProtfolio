@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
 import heroimage from '../assets/heroimage.jpg'
 import profilehero from '../assets/profilehero.jpg'
+import pexel from "../assets/pexels-pixabay-356056.jpg"
 
 
 const About = () => {
@@ -16,7 +17,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 border-2 border-portfolio-primary rounded-2xl transform rotate-6"></div>
               <img 
-                src={profilehero}
+                src={pexel}
                 alt="Iman Olabode Bello" 
                 className="relative z-10 rounded-2xl w-full max-w-md mx-auto object-cover shadow-lg border-4 border-white"
               />
