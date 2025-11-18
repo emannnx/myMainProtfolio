@@ -13,10 +13,21 @@ import nexx from "../assets/nexx.png";
 import sushiman from '../assets/sushiman.png'
 import xspace from '../assets/x-space.png'
 import profilehero from '../assets/profilehero.jpg'
+import resumeimage from '../assets/resume.png'
 
 const projects = [
   {
     id: 1,
+    title: "ResumeAI",
+    image: resumeimage,
+    description:
+      "ResumeAI is a fully customizable online resume builder that lets users design, edit, preview, and export clean professional resumes with modern UI and flexible layout control.",
+    tags: ["React", "TypeScript", "CSS", "Supabase"],
+    link: "https://emannx-resume.vercel.app/",
+    github: "https://github.com/emannnx/emannx-resumeAI",
+  },
+  {
+    id: 2,
     title: "Ramonik Travels & Tours",
     image: ramoniktravel,
     description:
@@ -26,7 +37,7 @@ const projects = [
     github: "https://github.com/emannnx/Ramonik-World-Connect.git",
   },
   {
-    id: 2,
+    id: 3,
     title: "NEXX Global",
     image: nexx,
     description:
@@ -36,7 +47,7 @@ const projects = [
     github: "https://github.com/emannnx/N.EXX---Smart-Crypto-Trading-for-All",
   },
   {
-    id: 3,
+    id: 4,
     title: "FransisPets Admin Dashboard",
     image: fransispets,
     description:
@@ -44,16 +55,6 @@ const projects = [
     tags: ["TypeScript", "CSS"],
     link: "https://francis-pet-emannx.vercel.app/",
     github: "https://github.com/emannnx/FrancisPetLocal",
-  },
-  {
-    id: 4,
-    title: "Emannx-Insite AI",
-    image: emanninsite,
-    description:
-      "An AI-powered website that processes images and provides personalized recommendations and insights.",
-    tags: ["React", "JavaScript", "CSS"],
-    link: "https://emannx-insight.vercel.app/",
-    github: "https://github.com/emannnx/Emannx-Insight",
   },
   {
     id: 5,
@@ -71,7 +72,7 @@ const projects = [
     image: xspace,
     description:
       "X-Space delivers innovative digital solutions designed to help individuals and businesses connect, create, and thrive in a fast-evolving tech landscape.",
-    tags: ["React (TypeScript)", "Supabase", "CSS"],
+    tags: ["React", "TypeScript", "Supabase", "CSS"],
     link: "https://x-space-emannx.vercel.app/",
     github: "https://github.com/emannnx/x-space-emannx",
   },
@@ -81,7 +82,7 @@ const projects = [
     image: healthhub,
     description:
       "A modern and interactive platform for managing healthcare services, appointments, and patient information.",
-    tags: ["React", "Spring boot", "MongoDB", "CSS"],
+    tags: ["React", "Spring Boot", "MongoDB", "CSS"],
     link: "https://health-care-systems-nine.vercel.app/",
     github: "https://github.com/emannnx/HealthCareSystems",
   },
