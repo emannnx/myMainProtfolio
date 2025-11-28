@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from '../assets/logo.png'
+import logo from '../assets/Group 10.svg'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,7 +40,7 @@ const Navbar = () => {
           style={{display: 'flex', alignItems: 'center'}}
         >
           <img src={logo} alt="" style={{height: '50px'}} />
-          Emannx<span className="text-portfolio-accent">.</span>
+          <span className="text-portfolio-accent">.</span>
         </motion.a>
 
         
