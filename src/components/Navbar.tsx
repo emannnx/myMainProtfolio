@@ -39,7 +39,7 @@ const Navbar = () => {
 
           style={{display: 'flex', alignItems: 'center'}}
         >
-          <img src={logo} alt="" style={{height: '60px'}} />
+          <img src={logo} alt="" style={{height: '50px'}} />
           mannx<span className="text-portfolio-accent">.</span>
         </motion.a>
 
