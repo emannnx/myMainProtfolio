@@ -35,7 +35,7 @@ const Navbar = () => {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className={`text-2xl font-bold ${scrolled ? 'text-portfolio-primary' : 'text-portfolio-primary'}`}
+          className={`text-2xl font-bold ${scrolled ? 'text-[#320C3D]' : 'text-[#320C3D]'}`}
           style={{display: 'flex', alignItems: 'center'}}
         >
           <img src={logo} alt="" style={{height: '60px'}} />
