@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,9 +36,13 @@ const Navbar = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className={`text-2xl font-bold ${scrolled ? 'text-portfolio-primary' : 'text-portfolio-primary'}`}
+          style={{display: 'flex', alignItems: 'center'}}
         >
-          Iman<span className="text-portfolio-accent">.</span>
+          <img src={logo} alt="" style={{height: '60px'}} />
+          mannx<span className="text-portfolio-accent">.</span>
         </motion.a>
+
+        
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
