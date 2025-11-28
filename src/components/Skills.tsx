@@ -9,18 +9,18 @@ const codingSkills = [
   { name: "JavaScript", level: 89 },
   { name: "TypeScript", level: 80 },
   { name: "Java", level: 100 },
-  { name: "React", level: 85 },
+  { name: "React", level: 100 },
   { name: "Tailwind CSS", level: 80 }
 ];
 
 const professionalSkills = [
-  { name: "Web Design", level: 95 },
+  { name: "Web Design", level: 100 },
   { name: "Web Development", level: 100 },
   { name: "MongoDB", level: 90 },
   { name: "SQL", level: 95 },
-  { name: "Spring Boot", level: 75 },
-  { name: "React ", level: 70 },
-  { name: "React-Native", level: 50 }
+  { name: "Spring Boot", level: 95 },
+  { name: "React ", level: 100 },
+  { name: "React-Native", level: 100 }
 ];
 
 const SkillBar = ({ skill, index }) => {
