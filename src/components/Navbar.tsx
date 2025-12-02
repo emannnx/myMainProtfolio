@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from '../assets/Group 10.svg'
+import logo from '../assets/icons.png'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,11 +35,12 @@ const Navbar = () => {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className={`text-2xl font-bold ${scrolled ? 'text-[#320C3D]' : 'text-[#320C3D]'}`}
+          className={`text-2xl font-bold ${scrolled ? 'text-[#614B9E]' : 'text-[#845AA4]'}`}
 
-          style={{display: 'flex', alignItems: 'center'}}
+          style={{display: 'flex', alignItems: 'center', gap: '8px'}}
         >
           <img src={logo} alt="" style={{height: '50px'}} />
+          Emannx
           <span className="text-portfolio-accent">.</span>
         </motion.a>
 
