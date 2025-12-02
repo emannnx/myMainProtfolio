@@ -3,7 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
 import heroimage from '../assets/heroimage.jpg'
 import profilehero from '../assets/profilehero.jpg'
-import pexel from "../assets/pexels-pixabay-356056.jpg"
+import pexels from "../assets/pexels-pixabay-356056.jpg"
+import pexel from "../assets/image.jpg"
+
 
 
 const About = () => {
