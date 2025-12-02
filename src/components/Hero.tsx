@@ -2,8 +2,8 @@
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import heroimage from '../assets/heroimage.jpg'
-import profilehero from '../assets/profilehero.jpg'
-import codeimage from '../assets/codeimage.png'
+import profilehero from '../assets/myImage2.jpg'
+import codeimage from '../assets/myImage2.jpg'
 
 
 
