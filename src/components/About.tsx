@@ -17,18 +17,21 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-16 mt-12">
           <div className="w-full md:w-2/5 order-2 md:order-1">
             <div className="relative">
-              <div className="absolute inset-0 border-2 border-portfolio-primary rounded-2xl transform rotate-6"></div>
-              <img 
-                src={pexel}
-                alt="Iman Olabode Bello" 
-                className="relative z-10 rounded-2xl w-full max-w-md mx-auto object-cover shadow-lg border-4 border-white"
-              />
-              
-              <div className="absolute -bottom-6 -right-6 p-4 bg-white rounded-xl shadow-xl">
-                <div className="flex flex-col items-center px-4 py-2">
-                  <span className="text-xs text-gray-500 uppercase tracking-wider">Experience</span>
-                  <span className="text-xl font-bold text-portfolio-primary">3+</span>
-                  <span className="text-xs">Years</span>
+              <div className="absolute inset-0 border-2 border-portfolio-primary rounded-2xl transform rotate-6" />
+              <div className="relative z-10">
+                <img 
+                  src={pexel}
+                  alt="Iman Olabode Bello" 
+                  className="rounded-2xl w-full max-w-md mx-auto object-cover shadow-lg border-4 border-white"
+                />
+
+                {/* Experience badge overlaying the image */}
+                <div className="absolute bottom-4 right-4 z-20 p-3 bg-white/95 rounded-xl shadow-xl">
+                  <div className="flex flex-col items-center px-3 py-1.5">
+                    <span className="text-[10px] text-gray-500 uppercase tracking-wider">Experience</span>
+                    <span className="text-lg font-bold text-portfolio-primary">3+</span>
+                    <span className="text-[10px]">Years</span>
+                  </div>
                 </div>
               </div>
             </div>
