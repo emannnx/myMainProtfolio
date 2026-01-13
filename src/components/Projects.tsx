@@ -23,8 +23,8 @@ const projects = [
     description:
       "ResumeAI is a fully customizable online resume builder that lets users design, edit, preview, and export clean professional resumes with modern UI and flexible layout control.",
     tags: ["React", "TypeScript", "CSS", "Supabase"],
-    link: "https://emannx-resume.vercel.app/",
-    github: "https://github.com/emannnx/emannx-resumeAI",
+    link: "https://emannx-resume-ai.vercel.app/",
+    github: "https://github.com/emannnx/emannx-ResumeAI",
   },
   {
     id: 2,
