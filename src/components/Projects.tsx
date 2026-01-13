@@ -22,7 +22,7 @@ const projects = [
     image: resumeimage,
     description:
       "ResumeAI is a fully customizable online resume builder that lets users design, edit, preview, and export clean professional resumes with modern UI and flexible layout control.",
-    tags: ["React", "TypeScript", "CSS", "Supabase"],
+    tags: ["React", "TypeScript", "CSS", "Firebase"],
     link: "https://emannx-resume-ai.vercel.app/",
     github: "https://github.com/emannnx/emannx-ResumeAI",
   },
